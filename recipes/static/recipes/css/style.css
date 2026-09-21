@@ -11,6 +11,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    background: #e0e0e0;
 }
 
 .container {
@@ -38,4 +39,43 @@ body {
 
 .main__header__icon {
     margin-right: 1.6rem;
+}
+
+/*  Form styles*/
+.form__container {
+    border: .2rem solid #13141f;
+    margin: 0 auto;
+    max-width: 64rem;
+    position: relative;
+    border-radius: .8rem;
+    transition: all .3s ease-in-out;
+}
+
+.form__input, .form__button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 1.6rem;
+    transition: all .3s ease-in-out;
+}
+
+.form__input {
+    width: 100%;
+    padding-right: 4rem;
+}
+
+.form__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form__container:focus-within {
+    background: white;
+    border-color: #269fe6;
+    box-shadow: 0 0 .8rem rgba(38, 159, 230, 0.2);
+}
+
+.form__container:focus-within .form__button {
+    color: #269fe6;
 }

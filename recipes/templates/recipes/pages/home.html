@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 
 {% include 'recipes/partials/head.html' %}
-<title>Recipes - Home</title>
 
     <body>
         <header class="main__header__container">
@@ -15,7 +14,15 @@
                 </h1>
             </div>
         </header>
-        
+
+        <main class="main__container">
+            <div class="container">
+                <form action="" class="form__container">
+                    <input type="search" name="search" class="form__input" placeholder="Pesquisar receitas">
+                    <button class="form__button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </main>
     </body>
 
 </html>
