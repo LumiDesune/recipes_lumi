@@ -194,3 +194,14 @@ body {
 .main__footer a:hover {
     filter: brightness(1.2);
 }
+
+/* Styling detail */
+.main__content__detail .recipe__list__item {
+    max-width: 84rem;
+    margin: 0 auto;
+}
+
+.main__content__detail .recipe__list__item:hover {
+    transform: scale(1);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+}
