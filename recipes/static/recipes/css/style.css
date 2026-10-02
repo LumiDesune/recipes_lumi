@@ -106,7 +106,8 @@ body {
 }
 
 .recipe__list__item {
-    max-width: 64rem
+    max-width: 64rem;
+    height: fit-content;
 }
 
 .recipe__list__item:hover {
@@ -115,6 +116,11 @@ body {
 
 .recipe__title__container {
     padding: 3rem;
+}
+
+.recipe__title__container a {
+    text-decoration: none;
+    color: #13141f;
 }
 
 .recipe__author {
@@ -204,4 +210,14 @@ body {
 .main__content__detail .recipe__list__item:hover {
     transform: scale(1);
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+}
+
+/* Recipe instructions */
+.recipe__instructions {
+    padding: 3rem;
+}
+
+.recipe__instructions__title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
